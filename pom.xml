@@ -21,10 +21,6 @@
             <id>inventive-repo</id>
             <url>https://repo.inventivetalent.org/content/groups/public/</url>
         </repository>
-        <repository>
-            <id>candycraft-repo</id>
-            <url>${archiva.URL}</url>
-        </repository>
     </repositories>
 
     <build>
@@ -49,17 +45,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <properties>
-        <archiva.URL>https://repo.morx.me/repository/internal</archiva.URL>
-    </properties>
-
-    <distributionManagement>
-        <repository>
-            <id>candycraft-repo</id>
-            <name>release</name>
-            <url>${archiva.URL}/repository/internal</url>
-        </repository>
-    </distributionManagement>
 
 </project>
