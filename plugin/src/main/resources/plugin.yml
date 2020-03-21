@@ -1,0 +1,5 @@
+author: pauhull
+name: NpcApi
+version: 1.0
+main: de.pauhull.npcapi.NpcApi
+softdepend: [NickAPI, Friends, PacketListenerApi]

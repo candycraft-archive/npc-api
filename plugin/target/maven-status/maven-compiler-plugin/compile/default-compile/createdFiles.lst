@@ -1,0 +1,8 @@
+de\pauhull\npcapi\listener\NpcListener.class
+de\pauhull\npcapi\packet\PacketReader.class
+de\pauhull\npcapi\event\PlayerClickNpcEvent.class
+de\pauhull\npcapi\event\PlayerClickNpcEvent$Action.class
+de\pauhull\npcapi\npc\SkinData.class
+de\pauhull\npcapi\NpcApi.class
+de\pauhull\npcapi\util\TimedHashMap.class
+de\pauhull\npcapi\npc\Npc.class
