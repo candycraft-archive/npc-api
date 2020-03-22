@@ -21,6 +21,10 @@
             <id>inventive-repo</id>
             <url>https://repo.inventivetalent.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>mcstats</id>
+            <url>https://maven.mcstats.net/</url>
+        </repository>
     </repositories>
 
     <build>
