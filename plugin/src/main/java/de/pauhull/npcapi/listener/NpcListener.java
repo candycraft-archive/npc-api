@@ -1,6 +1,5 @@
 package de.pauhull.npcapi.listener;
 
-import de.pauhull.nickapi.event.PostPlayerRefreshEvent;
 import de.pauhull.npcapi.NpcApi;
 import de.pauhull.npcapi.npc.Npc;
 import org.bukkit.Bukkit;
@@ -88,13 +87,4 @@ public class NpcListener implements Listener {
         }, 5);
         npcsInSight.remove(event.getPlayer());
     }
-
-    @EventHandler
-    public void onPostPlayerRefresh(PostPlayerRefreshEvent event) {
-        for (Npc npc : Npc.getNpcs()) {
-            npc.spawn(event.getPlayer());
-        }
-        npcsInSight.remove(event.getPlayer());
-    }
-
 }
